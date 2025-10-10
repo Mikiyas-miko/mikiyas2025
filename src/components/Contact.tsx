@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, Phone, Linkedin, Instagram } from "lucide-react";
+import { Mail, Phone, Linkedin, Instagram, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -56,20 +56,21 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "mikiyas.tizazu@example.com",
-      href: "mailto:mikiyas.tizazu@example.com",
+      value: "mikiyastizazu2014@gmail.com",
+      href: "mailto:mikiyastizazu2014@gmail.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+251 912 345 678",
-      href: "tel:+251912345678",
+      value: "+251 960 029 377",
+      href: "tel:+251960029377",
     },
   ];
 
   const socialLinks = [
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/mikiyas-tizazu", label: "LinkedIn" },
+    { icon: Instagram, href: "https://www.instagram.com/mikiyasuzazit/", label: "Instagram" },
+    { icon: Send, href: "https://t.me/eyosafm", label: "Telegram" },
   ];
 
   return (
